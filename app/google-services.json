@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "673071784266",
+    "project_id": "smartalert-b86a5",
+    "storage_bucket": "smartalert-b86a5.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:673071784266:android:c848fdec21572c0138e1b3",
+        "android_client_info": {
+          "package_name": "org.unipi.mpsp2343.smartalert"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD6hj_dkAK8yLgFAdsMDF4CkIfuJ1fYv1Q"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

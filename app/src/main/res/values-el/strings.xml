@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="password">Κωδικός</string>
+    <string name="login">Σύνδεση</string>
+    <string name="signup">Εγγραφή</string>
+    <string name="signin">Σύνδεση</string>
+    <string name="login_error_empty_email">Το e-mail δε μπορεί να είναι κενό!</string>
+    <string name="login_error_empty_pwd">Ο κωδικός δε μπορεί να είναι κενός!</string>
+    <string name="login_error_invalid_credentials">Μη έγκυρο e-mail ή κωδικός!</string>
+    <string name="login_success">Επιτυχής σύνδεση</string>
+    <string name="confirm_password">Επιβεβαίωση κωδικού</string>
+    <string name="back">Πίσω</string>
+    <string name="signup_error_email_empty">Το e-mail δε μπορεί να είναι κενό!</string>
+    <string name="signup_error_password_empty">Ο κωδικός δε μπορεί να είναι κενός!</string>
+    <string name="signup_error_password_confirmation_empty">Το πεδίο επιβεβαίωσης κωδικού δε μπορεί να είναι κενό!</string>
+    <string name="signup_error_password_no_match">Οι κωδικοί δεν ταιριάζουν!</string>
+    <string name="signup_success">Επιτυχής εγγραφή! Ένα μήνυμα επιβεβαίωσης έχει σταλεί στο email σας.</string>
+    <string name="signout">Αποσύνδεση</string>
+    <string name="signout_ok">Έχετε αποσυνδεθεί.</string>
+    <string name="error">Σφάλμα</string>
+
+    <string name="LOGIN_ERROR_MISSING_EMAIL">Το e-mail δε μπορεί να είναι κενό!</string>
+    <string name="LOGIN_ERROR_INVALID_LOGIN_CREDENTIALS">Μη έγκυρο e-mail ή κωδικός!</string>
+    <string name="LOGIN_ERROR_NOT_VERIFIED">Το email σας δεν έχει επιβεβαιωθεί.</string>
+    <string name="LOGIN_ERROR_USER_DISABLED">Ο λογαριασμός σας είναι απενεργοποιημένος!</string>
+    <string name="LOGIN_ERROR_UNEXPECTED_ERROR">Σφάλμα!</string>
+    <string name="LOGIN_ERROR_MISSING_PASSWORD">Ο κωδικός δε μπορεί να είναι κενός!</string>
+    <string name="LOGIN_ERROR_INVALID_EMAIL">Μη έγκυρο e-mail ή κωδικός!</string>
+
+    <string name="error_unexpected_error">Σφάλμα!</string>
+
+    <string name="SIGN_UP_ERROR_UNEXPECTED_ERROR">Σφάλμα!</string>
+    <string name="SIGNUP_ERROR_EMAIL_ALREADY_EXISTS">Υπάρχει ήδη λογαριασμός με αυτό το e-mail!</string>
+    <string name="SIGN_UP_ERROR_PASSWORD_LENGTH">Ο κωδικός πρέπει να περιέχει τουλάχιστον 6 χαρακτήρες.</string>
+    <string name="SIGN_UP_ERROR_EMAIL_EMPTY">Το e-mail δε μπορεί να είναι κενό!</string>
+    <string name="SIGN_UP_ERROR_PASSWORD_EMPTY">Το πεδίο επιβεβαίωσης κωδικού δε μπορεί να είναι κενό!</string>
+    <string name="error_connection">Σφάλμα σύνδεσης!</string>
+
+    <string name="report_disaster">Αναφορά καταστροφής</string>
+    <string name="main_menu">Κύριο μενού</string>
+    <string name="report">Αναφορά</string>
+
+    <string-array name="event_types">
+        <item>Πλημμύρα</item>
+        <item>Πυρκαγιά</item>
+        <item>Σεισμός</item>
+        <item>Ανεμοστρόβιλος</item>
+    </string-array>
+
+    <string name="alert_loc_and_time">
+            &lt;br/>Τοποθεσία: Lat %1$s, Lon %2$s&lt;br/>
+            Ώρα: %3$s&lt;br/>
+    </string>
+
+    <string-array name="event_alert_headers">
+        <item>Συναγερμός Πλημμύρας</item>
+        <item>Συναγερμός Πυρκαγιάς</item>
+        <item>Συναγερμός Σεισμού</item>
+        <item>Συναγερμός Ανεμοστρόβιλου</item>
+    </string-array>
+
+    <string-array name="event_alert_summaries">
+        <item>Σοβαρές πλημμύρες στην περιοχή σας.</item>
+        <item>Σοβαρή πυρκαγιά στην περιοχή σας.</item>
+        <item>Σοβαρός σεισμός στην περιοχή σας.</item>
+        <item>Σοβαρός ανεμοστρόβιλος στην περιοχή σας.</item>
+    </string-array>
+
+    <string-array name="event_alert_guidelines">
+        <item>Ειδοποίηση Πλημμύρας!&lt;br/>
+            Σοβαρές πλημμύρες στην περιοχή σας. Ακολουθήστε αυτές τις οδηγίες:&lt;br/>
+            &lt;b>1.&lt;/b> Μετακινηθείτε αμέσως σε υψηλότερο έδαφος.&lt;br/>
+            &lt;b>2.&lt;/b> Αποφύγετε το περπάτημα ή την οδήγηση μέσω των υδάτων της πλημμύρας.&lt;br/>
+            &lt;b>3.&lt;/b> Ενημερώνεστε από τα τοπικά νέα και τα επίσημα κανάλια.&lt;br/>
+            &lt;b>4.&lt;/b> Αν διαταχθεί εκκένωση, ακολουθήστε τις οδηγίες των αρχών.&lt;br/>
+            Μείνετε ασφαλείς!
+        </item>
+            <item>Σοβαρή πυρκαγιά στην περιοχή σας. Ακολουθήστε αυτές τις οδηγίες:&lt;br/>
+            &lt;b>1.&lt;/b> Εκκενώστε αμέσως αν δοθεί εντολή από τις αρχές.&lt;br/>
+            &lt;b>2.&lt;/b> Κλείστε όλα τα παράθυρα και τις πόρτες για να μην μπει ο καπνός.&lt;br/>
+            &lt;b>3.&lt;/b> Αποφύγετε την εισπνοή καπνού; καλύψτε τη μύτη και το στόμα με ένα πανί.&lt;br/>
+            &lt;b>4.&lt;/b> Ενημερώνεστε από τα τοπικά νέα και τα επίσημα κανάλια.&lt;br/>
+            Μείνετε ασφαλείς!
+        </item>
+            <item>Σοβαρός σεισμός στην περιοχή σας. Ακολουθήστε αυτές τις οδηγίες:&lt;br/>
+            &lt;b>1.&lt;/b> Σκύψτε, καλυφθείτε και κρατηθείτε μέχρι να σταματήσει η δόνηση.&lt;br/>
+            &lt;b>2.&lt;/b> Απομακρυνθείτε από παράθυρα και βαριά αντικείμενα.&lt;br/>
+            &lt;b>3.&lt;/b> Αν είστε έξω, μετακινηθείτε σε ανοιχτό χώρο μακριά από κτίρια.&lt;br/>
+            &lt;b>4.&lt;/b> Ενημερώνεστε από τα τοπικά νέα και τα επίσημα κανάλια.&lt;br/>
+            Μείνετε ασφαλείς!
+        </item>
+            <item>Σοβαρός ανεμοστρόβιλος στην περιοχή σας. Ακολουθήστε αυτές τις οδηγίες:&lt;br/>
+            &lt;b>1.&lt;/b> Προστατευτείτε αμέσως σε υπόγειο ή σε εσωτερικό δωμάτιο στον χαμηλότερο όροφο.&lt;br/>
+            &lt;b>2.&lt;/b> Αποφύγετε τα παράθυρα και καλυφθείτε με στρώμα ή βαριές κουβέρτες.&lt;br/>
+            &lt;b>3.&lt;/b> Αν είστε έξω, αναζητήστε καταφύγιο σε ένα σταθερό κτίριο ή ξαπλώστε σε χαντάκι.&lt;br/>
+            &lt;b>4.&lt;/b> Ενημερώνεστε από τα τοπικά νέα και τα επίσημα κανάλια.&lt;br/>
+            Μείνετε ασφαλείς!
+        </item>
+    </string-array>
+
+    <string name="disaster_type">Τύπος καταστροφής</string>
+    <string name="comments">Σχόλια</string>
+    <string name="post_event_success">Το συμβάν καταχωρήθηκε επιτυχώς!</string>
+    <string name="location_perm_granted">Η άδεια τοποθεσίας εκχωρήθηκε.</string>
+    <string name="location_perm_not_granted">Η άδεια τοποθεσίας δεν εκχωρήθηκε.</string>
+    <string name="report_error_no_location">Αποτυχία αναφοράς: Η τοποθεσία σας δεν είναι διαθέσιμη.</string>
+    <string name="photo">Φωτογραφία</string>
+    <string name="take_photo">Λήψη</string>
+    <string name="disaster_reports">Αναφορές Καταστροφών</string>
+    <string name="error_fetch">Αδυναμία ανάκτησης δεδομένων.</string>
+    <string name="refresh">Ανανέωση</string>
+    <string name="first_reported">Πρώτη αναφορά: %1$s</string>
+    <string name="times_reported">Αριθμός αναφορών: %1$s</string>
+    <string name="reject">Απόρριψη</string>
+    <string name="confirm">Επιβεβαίωση</string>
+    <string name="report_photo">Φωτογραφία αναφοράς</string>
+    <string name="ed_event_type">Τύπος συμβάντος: %1$s</string>
+    <string name="ed_event_severity">Σοβαρότητα συμβάντος: %1$s</string>
+    <string name="ed_event_location">Τοποθεσία συμβάντος: %1$s</string>
+    <string name="ed_reports_label">Αναφορές (%1$s)</string>
+    <string name="severity_low">ΧΑΜΗΛΗ</string>
+    <string name="severity_medium">ΜΕΤΡΙΑ</string>
+    <string name="severity_high">ΥΨΗΛΗ</string>
+    <string name="details">Λεπτομέρειες</string>
+    <string name="event_reject_succcess">Το συμβάν απορρίφθηκε.</string>
+    <string name="event_confirm_success">Το συμβάν επιβεβαιώθηκε. Θα σταλούν ειδοποιήσεις στους κοντινούς χρήστες.</string>
+    <string name="no_events_found">Δεν βρέθηκαν συμβάντα.</string>
+    <string name="location_or_notification_perm_not_granted">Οι άδειες δεν εκχωρήθηκαν. Για να λαμβάνετε ενημερώσεις για καταστροφές, ενεργοποιήστε τις χειροκίνητα.</string>
+    <string name="background_location_perm_not_granted">Η άδεια τοποθεσίας παρασκηνίου δεν εκχωρήθηκε. Για να λαμβάνετε ενημερώσεις για καταστροφές, ενεργοποιήστε την χειροκίνητα.</string>
+    <string name="saved_alerts">Αποθηκευμένες ειδοποιήσεις</string>
+</resources>

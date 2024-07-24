@@ -1,0 +1,141 @@
+<resources>
+    <string name="app_name" translatable="false">SmartAlert</string>
+    <string name="email" translatable="false">E-mail</string>
+    <string name="password">Password</string>
+    <string name="login">Log in</string>
+    <string name="signup">Sign up</string>
+    <string name="signin">Sign in</string>
+    <string name="login_error_empty_email">E-mail field cannot be empty!</string>
+    <string name="login_error_empty_pwd">Password field cannot be empty!</string>
+    <string name="login_error_invalid_credentials">Invalid e-mail or password!</string>
+    <string name="login_success">User login successful</string>
+
+    <string name="confirm_password">Confirm password</string>
+    <string name="back">Back</string>
+    <string name="signup_error_email_empty">E-mail field cannot be empty!</string>
+    <string name="signup_error_password_empty">Password field cannot be empty!</string>
+    <string name="signup_error_password_confirmation_empty">Password confirmation field cannot be empty!</string>
+    <string name="signup_error_password_no_match">Passwords do not match!</string>
+    <string name="signup_success">User created successfully! A verification message has been sent to your email address.</string>
+
+    <string name="signout">Sign out</string>
+    <string name="signout_ok">You have been signed out.</string>
+    <string name="error">Error</string>
+
+
+    <string name="LOGIN_ERROR_MISSING_EMAIL">E-mail field cannot be empty!</string>
+    <string name="LOGIN_ERROR_INVALID_LOGIN_CREDENTIALS">Invalid e-mail or password!</string>
+    <string name="LOGIN_ERROR_NOT_VERIFIED">Your email address has not been verified.</string>
+    <string name="LOGIN_ERROR_USER_DISABLED">Your account has been deactivated!</string>
+    <string name="LOGIN_ERROR_UNEXPECTED_ERROR">An unexpected error has occurred!</string>
+    <string name="LOGIN_ERROR_MISSING_PASSWORD">Password field cannot be empty!</string>
+    <string name="LOGIN_ERROR_INVALID_EMAIL">Invalid e-mail or password!</string>
+
+    <string name="error_unexpected_error">An unexpected error has occurred!</string>
+
+    <string name="SIGN_UP_ERROR_UNEXPECTED_ERROR">" An unexpected error has occurred!"</string>
+    <string name="SIGNUP_ERROR_EMAIL_ALREADY_EXISTS">Account with this email already exists!</string>
+    <string name="SIGN_UP_ERROR_PASSWORD_LENGTH">Password must be at least 6 characters long.</string>
+    <string name="SIGN_UP_ERROR_EMAIL_EMPTY">E-mail field cannot be empty!</string>
+    <string name="SIGN_UP_ERROR_PASSWORD_EMPTY">Password field cannot be empty!</string>
+    <string name="error_connection">Connection error!</string>
+
+    <string name="report_disaster">Report distaster</string>
+    <string name="main_menu">Main menu</string>
+    <string name="report">Report</string>
+
+    <string-array name="event_types">
+        <item>Flood</item>
+        <item>Fire</item>
+        <item>Earthquake</item>
+        <item>Tornado</item>
+    </string-array>
+
+    <string-array name="event_alert_headers">
+        <item>Flood Alert</item>
+        <item>Fire Alert</item>
+        <item>Earthquake Alert</item>
+        <item>Tornado Alert</item>
+    </string-array>
+
+    <string-array name="event_alert_summaries">
+        <item>Severe flooding in your area.</item>
+        <item>Severe fire in your area.</item>
+        <item>Severe earthquake in your area.</item>
+        <item>Severe tornado in your area.</item>
+    </string-array>
+
+    <string name="alert_loc_and_time">
+            &lt;br/>&lt;b>Location:&lt;/b> Lat %1$s, Lon %2$s&lt;br/>
+            &lt;b>Time:&lt;/b> %3$s&lt;br/>
+    </string>
+
+    <string-array name="event_alert_guidelines">
+        <item>
+            Follow these guidelines:&lt;br/>
+            &lt;b>1.&lt;/b> Move to higher ground immediately.&lt;br/>
+            &lt;b>2.&lt;/b> Avoid walking or driving through floodwaters.&lt;br/>
+            &lt;b>3.&lt;/b> Stay informed through local news and official channels.&lt;br/>
+            &lt;b>4.&lt;/b> If evacuation is ordered, follow instructions from authorities.&lt;br/>
+            Stay safe!
+        </item>
+
+        <item>
+            Follow these guidelines:&lt;br/>
+            &lt;b>1.&lt;/b> Evacuate immediately if instructed by authorities.&lt;br/>
+            &lt;b>2.&lt;/b> Close all windows and doors to prevent smoke from entering.&lt;br/>
+            &lt;b>3.&lt;/b> Avoid breathing in smoke; cover your nose and mouth with a cloth.&lt;br/>
+            &lt;b>4.&lt;/b> Stay informed through local news and official channels.&lt;br/>&lt;br/>
+            Stay safe!
+        </item>
+
+        <item>
+            Follow these guidelines:&lt;br/>
+            &lt;b>1.&lt;/b> Drop, cover, and hold on until the shaking stops.&lt;br/>
+            &lt;b>2.&lt;/b> Move away from windows and heavy objects.&lt;br/>
+            &lt;b>3.&lt;/b> If outside, move to an open area away from buildings.&lt;br/>
+            &lt;b>4.&lt;/b> Stay informed through local news and official channels.&lt;br/>
+            Stay safe!
+        </item>
+
+        <item>
+            Follow these guidelines:&lt;br/>
+            &lt;b>1.&lt;/b> Take shelter immediately in a basement or an interior room on the lowest floor.&lt;br/>
+            &lt;b>2.&lt;/b> Avoid windows and cover yourself with a mattress or heavy blankets.&lt;br/>
+            &lt;b>3.&lt;/b> If outdoors, seek shelter in a sturdy building or lie flat in a ditch.&lt;br/>
+            &lt;b>4.&lt;/b> Stay informed through local news and official channels.&lt;br/>
+            Stay safe!
+        </item>
+    </string-array>
+
+    <string name="disaster_type">Disaster type</string>
+    <string name="comments">Comments</string>
+    <string name="post_event_success">Disaster event posted successfully!</string>
+    <string name="location_perm_granted">Location permission granted.</string>
+    <string name="location_perm_not_granted">Location permission not granted.</string>
+    <string name="report_error_no_location">Report failed: Location not available.</string>
+    <string name="photo">Photo</string>
+    <string name="take_photo">Take Photo</string>
+    <string name="disaster_reports">Disaster Reports</string>
+    <string name="error_fetch">Unable to fetch data.</string>
+    <string name="refresh">Refresh</string>
+    <string name="first_reported">First reported: %1$s</string>
+    <string name="times_reported">Times reported: %1$s</string>
+    <string name="reject">Reject</string>
+    <string name="confirm">Confirm</string>
+    <string name="report_photo">Report photo</string>
+    <string name="ed_event_type">Event type: %1$s</string>
+    <string name="ed_event_severity">Event severity: %1$s</string>
+    <string name="ed_event_location">Event location: %1$s</string>
+    <string name="ed_reports_label">Reports (%1$s)</string>
+    <string name="severity_low">LOW</string>
+    <string name="severity_medium">MEDIUM</string>
+    <string name="severity_high">HIGH</string>
+    <string name="details">Details</string>
+    <string name="event_reject_succcess">The event was rejected.</string>
+    <string name="event_confirm_success">The event was confirmed. Notification will be sent to nearby users.</string>
+    <string name="no_events_found">No events were found.</string>
+    <string name="location_or_notification_perm_not_granted">Requested permissions not granted. To receive disaster alerts, enable them manually.</string>
+    <string name="background_location_perm_not_granted">Background location permission not granted. To receive disaster alerts, enable it manually.</string>
+    <string name="saved_alerts">Saved alerts</string>
+</resources>
